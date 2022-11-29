@@ -1,0 +1,60 @@
+.myfrom {
+    background: white;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.panel-header {
+	color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.panel-body {
+    border: 1px solid #337ab7;
+    padding: 10px;
+    min-height: 400px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #bdbdbdb8;
+    letter-spacing: 2px;
+}
+.form-group {
+    width: 100%;
+    padding: 5px;
+}
+select{
+	display: block;
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #bdbdbdb8;
+    letter-spacing: 2px;
+}
+input.submit-btn {
+    background: #299dad;
+    color: white;
+    transition: .5s;
+}
+input.submit-btn:hover {
+    background: #1c7a87;
+    color: white;
+    cursor: pointer;
+}
